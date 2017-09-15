@@ -1,7 +1,10 @@
 {application, pooler,
  [
-  {description, ""},
-  {vsn, git},
+  {description, "An OTP Process Pool Application"},
+  {licenses, ["Apache 2.0"]},
+  {maintainers, ["Seth Falcon", "Drew Kerrigan", "Randy Secrist"]},
+  {links, [{"Github", "https://github.com/seth/pooler"}]},
+  {vsn, "1.5.3"},
   {registered, []},
   {applications, [
                   kernel,
